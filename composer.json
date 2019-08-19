@@ -1,0 +1,20 @@
+{
+  "name": "subbclub/scs_types",
+  "description": "adaptive mongo objects php library",
+  "authors": [
+    {
+      "name": "Grigory Krassilnikov a.k.a morgan_chester",
+      "email": "me@morganchester.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "mongodb/mongodb": "^1.4",
+    "php": ">=7.1.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "Subbclub": "src/"
+    }
+  }
+}
